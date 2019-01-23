@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Ping Pong Game</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <link
+            href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+            crossorigin="anonymous"
+        >
+        <link rel="stylesheet" href="app.css">
+    </head>
+    <body>
+        <div class="custom-container">
+            <div class="row">
+                <div class="col-8">
+                    <canvas class="custom-canvas" id="root"></canvas>
+                </div>
+                <div class="col-2">
+                    <div class="form-group">
+                        <div class="row custom-row">
+                            <button type="button"
+                                    id="play_button"
+                                    class="btn btn-outline-light btn-block"
+                                    value="off"
+                            >
+                                PLAY
+                            </button>
+                            <button type="button"
+                            id="reset_button"
+                            class="btn btn-outline-light btn-block"
+                            >
+                                RESET
+                            </button>
+                        </div>
+                        <div id="settings" class="row">
+                            <label for="number_of_balls" class="custom-label">Number of Balls (not implemented yet)</label>
+                            <select class="form-control" id="number_of_balls">
+                                <option selected value="1">1</option>
+                                <option value="2">2</option>
+                            </select>
+                            <label for="computer_level" class="custom-label">Computer Level</label>
+                            <select class="form-control" id="computer_level">
+                                <option selected value="1">Easy</option>
+                                <option value="2">Average</option>
+                                <option value="3">Hard</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

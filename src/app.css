@@ -1,0 +1,27 @@
+body {
+    background-color: grey
+}
+
+.custom-container {
+    padding: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.custom-canvas {
+    border: 5px solid #FFF;
+}
+
+label.custom-label {
+    font-weight: bold;
+    color: #FFF;
+}
+
+/* Apply padding to all <label.custom-label> except the first one */
+label.custom-label ~ label.custom-label {
+    padding-top: 10%;
+}
+
+div.custom-row {
+    padding-bottom: 20%;
+}
