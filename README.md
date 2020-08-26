@@ -1,6 +1,14 @@
-Simple ping pong game, built on Javascript: https://ping-pong-game.netlify.com/
+# Simple ping pong game :tennis:
+---
+![Scheme](https://bitbucket.org/elnurcoot/ping-pong-game/downloads/ping-pong-screenshot.png)
 
-Based on [this](https://www.youtube.com/watch?v=nl0KXCa5pJk&list=PLt4757glfbhHkfz7dqojMbnBdgUnFih4B&t=0s&index=2) totorial. Made the following improvements:
+Built with vanilla javascript: [Play Here!](https://ping-pong-game.netlify.com/)
+
+Based on [this](https://www.youtube.com/watch?v=nl0KXCa5pJk&list=PLt4757glfbhHkfz7dqojMbnBdgUnFih4B&t=0s&index=2) tutorial.
+
+---
+
+The following improvements made:
 
 * Split code into separate web components
 * Setup babel for transpiling/compiling
