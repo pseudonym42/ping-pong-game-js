@@ -1,6 +1,6 @@
 # Simple ping pong game :tennis:
 ---
-![Scheme](https://bitbucket.org/elnurcoot/ping-pong-game/downloads/ping-pong-screenshot.png)
+![Screenshot](ping-pong-screenshot.png)
 
 Built with vanilla javascript: [Play Here!](https://ping-pong-game.netlify.com/)
 
